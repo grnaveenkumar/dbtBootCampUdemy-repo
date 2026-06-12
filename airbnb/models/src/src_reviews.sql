@@ -1,0 +1,10 @@
+WITH raw_reviews AS (
+    select * from airbnb.raw.raw_reviews
+)
+select 
+    LISTING_ID,
+    DATE AS REVIEW_DATE,
+    REVIEWER_NAME, 
+    COMMENTS AS REVIEW_TEXT,
+    SENTIMENT AS REVIEW_SENTIMENT
+FROM raw_reviews

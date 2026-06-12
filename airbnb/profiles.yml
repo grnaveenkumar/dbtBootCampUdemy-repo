@@ -1,0 +1,16 @@
+airbnb:
+  outputs:
+    dev:
+      type: snowflake
+      account: risolal-vv13615
+      user: dbt
+
+      role: TRANSFORM
+      private_key: "-----BEGIN ENCRYPTED PRIVATE KEY-----\nMIIE6TAbBgkqhkiG9w0BBQMwDgQIgE7xPKjZsN0CAggABIIEyAHzDmrmu9GdPX+z\nBO1Oy13eBIv7fiZmo/MzczliXNswEK6mNMzGRGVFy9Hq0CqEm/ilID4XQUs4SR6u\n//tXEQbMe5kmrqlocSxpH4IzmCrqTtsCnWjFQXOKVUBGrDSgh0bJanIm7UToCRlf\nD5it912nIaejXK308wkFacnMuXUj9uZ63iZgJ7OxxGXZvysbLRoisSorCJ+hUZf1\nCcISKqyLneD8fTedA160ZA2gD0bXAS9en9TV62CFYht4wDNFSX8/89pUBTVVmfs8\nUOcqK8TwF7X5IDpZ0ahJUHlMbU8cNHUz+lB7cA+Lxmr81s5rHSfjdGt0tJ43cEWn\nQt1RR0XA30GH8DzJ3jCLbWhu2r961mgG0NCVRvaF9zlHvk9RIzcHtgfZMXW0+YSP\nx1vPqOrBx7ENL+p1sHQ/i5mgpF0DDXUreKA5doTpmH/8ZxqsFmhcNg/b2fkyDgij\ng5/88SwrumqNNlJHd77yPsp0uJCmnDdKLNj9sd/IfKyw2d3tlbamE/dI2C5375YH\nLqPUcvTiGNk0+o6SdJyzM9rhnvlU3sYRA4IVFuvPCBZrEsZeJwXp0wc1C8VDh12x\nrq2EmgS8cWgtAQT9YYERdclWrjVT8lc0bVI43O8CFp2Y4C4doJTq33LsNdodLvjn\nz36FSTJvllp6Aa5726mNOwMxXTq/g+yNqSq1z8VVPXf/zHZzY8SPliCsnw1RthU3\nN0CxTZ9U1MpmnBnnyd6T6ctq0ja8Leu4UGhEG7WKRS+xWewNS1PpA6W06v290faT\n0U+VwZog477hqaj3O6gAX59502lk1PeXVt7HmnIc2aBQK7u8Ye5pt7opTtvtEPP2\nkUXw1Y9HAQVsl1Fx8oaYnNdkwHHL9iNPR2ag1mXOKfggcNwNxk01iS0v/6Wz48+o\nW9cODZkZJlaELP+oeyOvpMXZm3PvVb18x2smEOV9cchE1MTpeXIdwtvNt9/bJ1W0\nxcw7aU1VhGDKEgibWgw2xOfoeIsHB05Qgq5Fho1lmmZtd5ZEBlNS67DTJJFxyPP0\nu3Bq9iK0DxHnCTwSzW/lT1Y1GpopOemkqB95Aw9+AWWiMYpgsBaQSp5OgK9IGWBk\nI8n42VO0R1RVI44AsZP8QgyM/9TbVLfP++OkkQkxVw3L29rHVoJ66RmwwugADqW7\nGHFpHj/TPREwWp9Cgk8gThRr2OCf1bBIc0xUjRS+72IFNun9h6UzXrLqJI0YHElM\njZODvKY5mAVCnYRdRgdQi2h6J64sikQJN+2tG1Iv4UoUzmy2gt3Xxsm6Ry3Q2kHm\nEk1PZBWiguAtuwjj66jihWJd6J8N8tczKxiIa9/16BzKEtls30tkpQsZATYDMjmH\n6umqnyRt39ZjcSQiqb2jqOc7zAACnmF8dvCeZVJeNqi7GUNEzR4Hx2a0U4za0Hv5\nm6H8rUG2LL+fsXYYm0nfD7k9hALMV7ZUoAm1aakt+bWPDNPIo2Ln9DxOpyODQp8K\n3FzClpI1BlrMW9m+1MleRRjpjaXVargG7+LVFpwKgOD1BmPmoHzZgjRoC8ub4DTc\n+XK999y1FM+zi0KgT+DVHfXnPc4dpXSWfeouZDymWCVKphaNnfe0BFcBV+GVLsdp\n+esevFKQyqcVPN6NSg==\n-----END ENCRYPTED PRIVATE KEY-----\n"
+      private_key_passphrase: Welcome123
+
+      database: AIRBNB
+      schema: DEV
+      threads: 1
+      warehouse: COMPUTE_WH
+  target: dev
