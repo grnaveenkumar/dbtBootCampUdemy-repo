@@ -1,0 +1,5 @@
+profiles.yml
+*.env
+.env*
+secrets.yml
+credentials.json
